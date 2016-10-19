@@ -3,7 +3,7 @@ import actionTypes from './types';
 
 export function addTodo(text) {
     return {
-        type: actionYypes.ADD_TODO,
+        type: actionTypes.ADD_TODO,
         text
     };
 }

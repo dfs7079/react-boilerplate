@@ -1,6 +1,8 @@
 import keyMirror from 'keymirror';
 
-export default actionTypes = keyMirror([
-    'ADD_TODO',
-    'REMOVE_TODO'
-]);
+const actionTypes = keyMirror({
+    ADD_TODO: null,
+    REMOVE_TODO: null
+});
+
+export default actionTypes;
