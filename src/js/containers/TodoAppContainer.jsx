@@ -4,6 +4,7 @@
 
 import React from 'react';
 import {connect} from 'react-redux';
+import {dispatch} from '../store';
 import {addTodo} from '../actions/creators';
 import TodoInput from '../components/TodoInput.jsx';
 import TodoList from '../components/TodoList.jsx';

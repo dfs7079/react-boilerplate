@@ -10,7 +10,7 @@ export default function todos(state = [], action) {
             return [
                 ...state,
                 {
-                    text: action.text,
+                    text: action.value,
                     id: __nextId++,
                     completed: false
                 }
